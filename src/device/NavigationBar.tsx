@@ -6,8 +6,8 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons/faArrowLeft';
 import { faHome } from '@fortawesome/free-solid-svg-icons/faHome';
 import { Icon } from '../common/Icon';
 import { English, Korean, LanguageContext } from '../common/Language';
-import * as InKorean from './Image/InKorean.svg';
-import * as InEnglish from './Image/InEnglish.svg';
+import * as InKorean from './image/InKorean.svg';
+import * as InEnglish from './image/InEnglish.svg';
 
 const Cell = ({ children = null as ReactNode }) => (
     <span className={css({

@@ -38,7 +38,7 @@ module.exports = (env, argv) => {
             rules: [
                 { test: /\.tsx?$/, use: 'ts-loader' },
                 { test: /\.css$/, use: [MiniCSSExtractPlugin.loader, 'css-loader'] },
-                { test: /\.(png|jpg|svg)$/, use: { loader: 'url-loader', options: { esModule: false, limit: 2048 } } }
+                { test: /\.(png|jpg|svg)$/, type: 'asset/resource' }
             ]
         },
         plugins: [

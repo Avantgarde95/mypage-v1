@@ -57,7 +57,7 @@ export const apps = [
     {
         koreanName: '코드',
         englishName: 'Code',
-        path: 'https://github.com/Avantgarde95/Avantgarde95.github.io',
+        path: 'https://github.com/Avantgarde95/mypage-v1',
         icon: faCode,
         color: '#a4b353'
     },
